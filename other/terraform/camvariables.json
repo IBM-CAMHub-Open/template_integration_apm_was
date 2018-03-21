@@ -3,7 +3,7 @@
     {
       "name": "ip_address",
       "type": "string",
-      "description": "IP Address of the HOST to install the ELK Agent",
+      "description": "IP Address of the HOST to install the APM Agent.",
       "hidden": false,
       "label": "IP address",
       "secured": false,
@@ -14,7 +14,7 @@
     {
       "name": "user",
       "type": "string",
-      "description": "Userid to install the ELK Agent, root reccomended",
+      "description": "Userid to install the APM Agent, root reccomended.",
       "hidden": false,
       "label": "Operating system user",
       "secured": false,
@@ -37,7 +37,7 @@
     {
       "name": "private_key",
       "type": "string",
-      "description": "Private key of the installation user. This value should be base64 encoded",
+      "description": "Private key of the installation user. This value should be base64 encoded.",
       "hidden": false,
       "label": "Operating system private key",
       "secured": true,
@@ -48,9 +48,9 @@
     {
       "name": "was_profile",
       "type": "string",
-      "description": "Default WebSphere Profile",
+      "description": "Default WebSphere Profile Name.",
       "hidden": false,
-      "label": "Websphere profile",
+      "label": "Websphere profile name",
       "secured": false,
       "required": true,
       "immutable": false,
@@ -60,7 +60,7 @@
     {
       "name": "was_home",
       "type": "string",
-      "description": "Base directory for the WebSphere Installation",
+      "description": "Base directory for the WebSphere Installation.",
       "hidden": false,
       "label": "WebSphere base directory",
       "secured": false,
@@ -72,7 +72,7 @@
     {
       "name": "was_cell",
       "type": "string",
-      "description": "WebSphere Cell Name",
+      "description": "WebSphere Cell Name.",
       "hidden": false,
       "label": "WebSphere cell",
       "secured": false,
@@ -84,7 +84,7 @@
     {
       "name": "was_node",
       "type": "string",
-      "description": "WebSphere Node Name",
+      "description": "WebSphere Node Name.",
       "hidden": false,
       "label": "WebSphere node name",
       "secured": false,
@@ -96,7 +96,7 @@
     {
       "name": "was_user",
       "type": "string",
-      "description": "Websphere run_as user",
+      "description": "Websphere run_as user.",
       "hidden": false,
       "label": "WebSphere run_as user",
       "secured": false,
