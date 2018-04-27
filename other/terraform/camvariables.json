@@ -25,7 +25,7 @@
     },
     {
       "name": "password",
-      "type": "string",
+      "type": "password",
       "description": "Password of the installation user",
       "hidden": false,
       "label": "Operating system password",
