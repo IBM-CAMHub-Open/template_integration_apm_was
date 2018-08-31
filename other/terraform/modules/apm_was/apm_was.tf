@@ -16,6 +16,11 @@ resource "camc_scriptpackage" "RemoteScript" {
   remote_user = "${var.user}"
   remote_password = "${var.password}"
   remote_key = "${var.private_key}"
+  bastion_host = "${var.bastion_host}"
+  bastion_user = "${var.bastion_user}"
+  bastion_password = "${var.bastion_password}"
+  bastion_private_key = "${var.bastion_private_key}"  
+  bastion_port = "${var.bastion_port}"
   destination = "/tmp/config_apm_was.sh"
   source = "${path.module}/scripts/config_apm_was.sh"
   on_create = true

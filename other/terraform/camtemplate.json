@@ -1,7 +1,7 @@
 {
     "name": "APM Configuration for WebSphere Application Server Template",
     "description": "This template will configure APM for IBM Application Server on Linux.",
-    "version": "1.0",
+    "version": "2.1",
     "imageUrl": "",
     "image": "",
     "type": "integration",

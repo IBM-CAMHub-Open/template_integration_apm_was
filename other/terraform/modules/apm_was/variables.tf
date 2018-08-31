@@ -25,3 +25,27 @@ variable "was_cell" { type = "string" description = "WebSphere Cell Name." defau
 variable "was_node" { type = "string" description = "WebSphere Node Name" default = "devnode01" }
 variable "was_user" { type = "string" description = "Websphere run_as user." default = "wasadmin" }
 variable "apm_dir" { type = "string" description = "Base directory for APM" default = "/opt/ibm/apm/agent" }
+
+##############################################################
+# Define the bastion variables
+##############################################################
+variable "bastion_host" {
+  type = "string"
+}
+
+variable "bastion_user" {
+  type = "string"
+}
+
+variable "bastion_private_key" {
+  type = "string"
+}
+
+variable "bastion_port" {
+  type = "string"
+}
+
+variable "bastion_password" {
+  type = "string"
+}
+
