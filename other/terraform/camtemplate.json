@@ -23,7 +23,6 @@
       }
     },
     "metadata": {
-      "displayName": "APM Configuration for WebSphere Application Server Template",
       "providerDisplayName": "Other",
       "longDescription": "This template will configure IBM APM agents for WAS on a target node. APM Agents must have already been installed on this node with a minimal of the was and os agents installed. This template will configure the was agent on the target node.",
       "bullets": [{
